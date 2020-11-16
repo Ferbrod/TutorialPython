@@ -47,7 +47,7 @@ print(a.split("W")) #returns the string splitted if it founds the instance separ
 
 txt = "The rain in Spain stays mainly in the plain"
 x = "ain" in txt
-print(x) #in or not in ar booleans used to know if a certain prhase or character is present in a strings
+print(x) #in or not in ar booleans used to know if a certain prhase or character is present in a string
 
 y = "ain" not in txt
 print(y)
@@ -79,10 +79,10 @@ print(Myorder.format(quantity, itemno, price))
 txt = 'We are the so-called \'Vikings\' from the north'
 print(txt) #this is used when you want to put double quotes or single quoutes inside of a string that uses them
 
-txt = "\x48\x65\x6c\x6c\x6f" #transforms hex number into a strings
+txt = "\x48\x65\x6c\x6c\x6f" #transforms hex number into strings
 print(txt)
 
-txt = "\110\145\154\154\157" #transforms octal values to string, it is a backslash followed ny 3 numbers
+txt = "\110\145\154\154\157" #transforms octal values to string, it is a backslash followed by 3 numbers
 print(txt)
 
 #Both last examples mean hello
