@@ -86,3 +86,5 @@ txt = "\110\145\154\154\157" #transforms octal values to string, it is a backsla
 print(txt)
 
 #Both last examples mean hello
+
+#A link to the methods for strings builted in python https://www.w3schools.com/python/python_ref_string.asp
