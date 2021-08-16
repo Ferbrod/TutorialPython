@@ -41,7 +41,7 @@ print(a.upper()) #this returns the string in upper case
 
 print(a.replace("H", "I"))  #this replaces the string with another one
 
-print(a.split("W")) #returns the string splitted if it founds the instance separator, in this case it returns ['Hello', 'World!']
+print(a.split(",")) #returns the string splitted if it founds the instance separator, in this case it returns ['Hello', 'World!']
 
 #Check Strings
 

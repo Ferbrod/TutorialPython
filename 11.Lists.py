@@ -5,8 +5,8 @@ print(len(thislist)) #this allows you to know the length of the thislist
 #lists can have any data type inside them
 
 list1 = ["apple", "Banana", "Cherry"]
-lsit2 = [1, 5, 7, 9, 3]
-lsit3 = [True, False, False]
+list2 = [1, 5, 7, 9, 3]
+list3 = [True, False, False]
 
 #lists can also contain different data type
 
@@ -53,3 +53,31 @@ if "apple" in fruitlist:
 
 if "tomato" not in fruitlist:
     print("No, 'tomato' is not on the fruit list")
+
+#Change values of an specific item
+
+trylist = ["apple", "banana","cherry"]
+trylist[1] = "Blackcurrant"
+print(trylist)
+
+#Change a variety of in an specific range
+
+triedlist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+triedlist[1:3] = ["blackcurrant", "watermelon"]
+print(triedlist)
+
+#what happens when you insert more items than specified
+
+trylist[1:2] = ["blackcurrant", "watermelon"]
+print(trylist)
+
+#or less
+
+trylist[1:3] = ["Tomato"]
+print(trylist)
+
+#or we can also insert items
+
+hardlist = ["apple", "banana", "cherry"]
+hardlist.insert(2, "watermelon")
+print(hardlist)
